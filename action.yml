@@ -9,7 +9,7 @@ inputs:
     default: "currently-reading"
     required: false
   max_books_count:
-    default: "10"
+    default: "5"
     required: false
   readme_file_path:
     default: "./README.md"
@@ -21,7 +21,7 @@ inputs:
     default: "GOODREADS-LIST"
     required: false
   template:
-    default: "- [$title]($url) by $author (⭐️$average_rating)"
+    default: "- [$title]($url) by $author"
     required: false
   sort_by_fields:
     default: ">pubDate"
